@@ -8,11 +8,14 @@ title: Anasayfa
 Ben Mehmet Can. Gömülü sistemler, IoT, otomotiv ve yazılım üzerine çalışıyorum. 
 Burası benim kişisel not defterim. Yazı içeriklerinin hiçbir doğruluk garantisi mevcut değildir.
 
-
 ---
 
-## YAZILAR
+# YAZILAR
 
-# Lorem Ipsum
+{% for post in site.posts %}
 
-work in progress..:)
+## [{{ post.title }}]({{ post.url }})
+
+{{ post.excerpt }}
+
+{% endfor %}
