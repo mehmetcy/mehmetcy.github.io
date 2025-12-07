@@ -1,15 +1,17 @@
 ---
-layout: post
-title:  "Test Yazısı"
-date:   2025-12-07 23:00:00 +0300
+layout: default
+title: Anasayfa
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+# Merhaba!
 
-## Test2
+Ben Mehmet Can. Gömülü sistemler, IoT, otomotiv ve yazılım üzerine çalışıyorum. Burası benim kişisel not defterim.
+Araştırırken öğrendiklerimi yazıya dökmeye gayret gösteriyorum.
 
-Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+---
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+### Blog Yazıları
 
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+{% for post in site.posts %}
+- **{{ post.date | date: "%d.%m.%Y" }}** — [{{ post.title }}]({{ post.url }})
+{% endfor %}
