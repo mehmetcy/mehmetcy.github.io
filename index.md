@@ -12,6 +12,4 @@ Araştırırken öğrendiklerimi yazıya dökmeye gayret gösteriyorum.
 
 ### Blog Yazıları
 
-{% for post in site.posts %}
-- **{{ post.date | date: "%d.%m.%Y" }}** — [{{ post.title }}]({{ post.url }})
-{% endfor %}
+work in progress..:)
