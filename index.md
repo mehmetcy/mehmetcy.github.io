@@ -16,6 +16,9 @@ Burası benim kişisel not defterim. Yazı içeriklerinin hiçbir doğruluk gara
 
 ## [{{ post.title }}]({{ post.url }})
 
+**Yazan:** {{ site.author }}
+
 {{ post.excerpt }}
 
+---
 {% endfor %}
