@@ -3,10 +3,10 @@ layout: default
 title: Anasayfa
 ---
 
-# ABECE
+# Intro
 
-Ben Mehmet Can. Gömülü sistemler, IoT, otomotiv ve yazılım üzerine çalışıyorum. 
-Burası benim kişisel not defterim. Yazı içeriklerinin hiçbir doğruluk garantisi mevcut değildir.
+Elektrik-Elektronik mühendisi, araştırmayı sever, otomobillerle ilgilenir.
+Burası benim kişisel not defterim. Yazı içeriklerinin doğruluk garantisi yoktur.
 
 ---
 
